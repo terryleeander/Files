@@ -23,13 +23,5 @@
 		<br>
 		<br>
 		<button type="button" onclick="document.getElementById('demo').style.display='block'">Welcome!</button>
-		<div class="topnav">
-<div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-</div>
 	</body>
 </html> 
