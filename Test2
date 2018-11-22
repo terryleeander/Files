@@ -4,33 +4,32 @@
 		<link rel="stylesheet" href="resources/stylesheet.css"/>
 	</head>
 	<body>
-		<a href="index.html" class="button">Home</a>
-		<a href="antonia.html" class="button">Antonia</a>
-		<a href="gerald.html" class="button">Gerald</a>
-		<a href="matt.html" class="button">Matt</a>
-		<a href="terry.html" class="button">Terry</a>
-		<a href="html.html" class="button">HTML</a>
-		<a href="css.html" class="button">CSS</a>
-		<a href="javascript.html" class="button">JavaScript</a>
+		<div id="navbar">
+			<a href="index.html" class="navbutton">Home</a>
+			<a href="antonia.html" class="navbutton">Antonia</a>
+			<a href="gerald.html" class="navbutton">Gerald</a>
+			<a href="matt.html" class="navbutton">Matt</a>
+			<a href="terry.html" class="navbutton">Terry</a>
+			<a href="html.html" class="navbutton">HTML</a>
+			<a href="css.html" class="navbutton">CSS</a>
+			<a href="javascript.html" class="navbutton">JavaScript</a>
+		</div>
 		<h1>Group Project</h1>
 		<br>
 		<img src="https://cdn.pbrd.co/images/HOgPhEs.png">
 		<br>
 		<p id="demo" style="display:none">Welcome to our group project website. Antonia, Gerald, Matt and Terry have created this as a project for ITC102 at Seattle Central College. 
 		</p>
+		<br>
+		<br>
 		<button type="button" onclick="document.getElementById('demo').style.display='block'">Welcome!</button>
 		<div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <input type="text" placeholder="Search..">
-</div>
-
-<div style="padding-left:16px">
-  <h2>Responsive Search Bar</h2>
-  <p>Navigation bar with a search box inside of it.</p>
-  <p>Resize the browser window to see the responsive effect.</p>
-  <p>For more examples on how to add a submit button and icon inside the search bar, go back to the tutorial.</p>
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </div>
 	</body>
 </html> 
