@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="resources/stylesheet.css"/>
+	</head>
+	<body>
+		<a href="index.html" class="button">Home</a>
+		<a href="antonia.html" class="button">Antonia</a>
+		<a href="gerald.html" class="button">Gerald</a>
+		<a href="matt.html" class="button">Matt</a>
+		<a href="terry.html" class="button">Terry</a>
+		<a href="html.html" class="button">HTML</a>
+		<a href="css.html" class="button">CSS</a>
+		<a href="javascript.html" class="button">JavaScript</a>
+		<h1>Group Project</h1>
+		<br>
+		<img src="https://cdn.pbrd.co/images/HOgPhEs.png">
+		<br>
+		<p id="demo" style="display:none">Welcome to our group project website. Antonia, Gerald, Matt and Terry have created this as a project for ITC102 at Seattle Central College. 
+		</p>
+		<button type="button" onclick="document.getElementById('demo').style.display='block'">Welcome!</button>
+    <div class="sidebar">
+  Area 1 (for example a sidebar)
+  <gcse:searchbox></gcse:searchbox>
+</div>
+
+<div class="main-content">
+  Area 2 (for example main area of the page)
+  <gcse:searchresults></gcse:searchresults>
+</div>
+	</body>
+</html> 
